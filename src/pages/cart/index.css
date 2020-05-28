@@ -1,0 +1,27 @@
+.number-changer {
+    display: flex;
+}
+
+.number-changer button:focus, .number-changer input:focus {
+    outline: 0 !important;
+}
+
+.number-changer button {
+    background: transparent;
+    padding: 3px;
+    width: 20px;
+}
+
+.number-changer input {
+    width: 24px;
+    text-align: center;
+    border: none;
+}
+
+.number-changer .decrease {
+    border-radius: 4px 0 0 4px
+}
+
+.number-changer .increase {
+    border-radius: 0 4px 4px 0
+}
