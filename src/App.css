@@ -37,21 +37,37 @@ header button:focus {
 
 .banner{
     width: 100%;
-    margin: 10px 0;
+    /*margin: 10px 0;*/
     border-radius: 25px;
+
+}
+.ant-carousel .slick-slide img{
+    height: 50vh;
 }
 
 .banner-discount{
     top: 150px;
+    display: flex;
     position: absolute;
     font-size: 2vw;
     color: white;
     padding: 21px;
     border-radius: 100px;
-    background: blue;
+    background: #0f4c81;
     transform: rotate3d(1, 1, 1, -45deg);
 }
-.banner-discount b{
+
+.banner-of-date{
+    /*right: 50px;*/
+    /*color: #2FD516;*/
+
+    border: 2px solid #2FD516;
+    background: #2FD516;
+    transform: rotate3d(1, 1, 1, -25deg);
+}
+
+
+.banner-of-date b, .banner-discount b{
     color: #ef0000;
     font-size: 3vw;
 }
@@ -204,9 +220,9 @@ header button:focus {
     padding: 24px 12px;
 }
 
- .ant-modal-header .ant-modal-title{
-     color: #001529;
-     font-size: 32px;
+.ant-modal-header .ant-modal-title{
+    color: #001529;
+    font-size: 32px;
 }
 .history-content .order-more{
     cursor: pointer;
@@ -257,7 +273,7 @@ header button:focus {
 
 .login-container {
     margin: auto;
-     background-color: #125e83;
+    background-color: #125e83;
     width: 285px;
     height: 253px;
     /*position: relative;*/
@@ -523,4 +539,35 @@ header button:focus {
 
 .ant-modal-content{
     border-radius: 25px;
+}
+
+.ant-carousel .slick-slide {
+    margin: 10px 0;
+    text-align: center;
+    height: 460px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.ant-carousel  .slick-initialized{
+    width: 94vw;
+}
+
+.ant-carousel  .slick-initialized .slick-dots .slick-dots-bottom li button{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.ant-carousel .slick-dots li button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: #1890ff !important;
+    margin-right: 25px;
+}
+.ant-carousel .slick-dots-bottom {
+    bottom: 35px;
 }

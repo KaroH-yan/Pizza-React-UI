@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import {Col, Row, Spin} from "antd"
 import Pizza from "../components/ItemCard"
+import Carousel from "./component/carusel"
 import agent from "../../services/pizza"
 
 export default () => {
@@ -32,8 +33,7 @@ export default () => {
         <div className="menu-list">
             {!!data ?
                 <>
-                    <img alt="example" src={require(`../../assets/images/bannerPizza.jpg`)} className="banner" />
-                    <div className="banner-discount"> Discount <b>-25%</b> only Today</div>
+                    <Carousel />
                     <Row gutter={48}>
                         {data.map((el, index) =>
                             <Col key={index} xl={8} xxl={6}>
@@ -55,7 +55,6 @@ export default () => {
                 <Spin className="loading-spin" tip={"Loading..."}/>
             }
         </div>
-
     )
 
 }
