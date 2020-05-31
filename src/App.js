@@ -84,9 +84,9 @@ export default () => {
                         <Route path="/payment" component={Payment}/>
                         <Content className="site-layout" style={{padding: "0 50px", marginTop: 64, height: "94vh"}}>
                             <Route path="/pizza" component={Pizza}/>
-                            {/*<Route path="/login" component={Login}/>*/}
+                            <Route path="/" component={Pizza}/>
                             <Route path="/history" component={History}/>
-                            <Redirect to="/pizza"/>
+                            <Redirect from="/" to="/pizza"/>
                         </Content>
                     </Switch>
                 </Layout>

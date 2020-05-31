@@ -2,7 +2,7 @@
   "name": "pizza",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KaroH-yan.github.io/Pizza-React-UI/",
+  "homepage": "http://KaroH-yan.github.io/Pizza-React-UI/",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "antd": "^4.1.3",
