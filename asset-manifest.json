@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Pizza-React-UI/static/css/main.2453da4f.chunk.css",
+    "main.js": "/Pizza-React-UI/static/js/main.21ec064c.chunk.js",
+    "main.js.map": "/Pizza-React-UI/static/js/main.21ec064c.chunk.js.map",
+    "runtime-main.js": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js",
+    "runtime-main.js.map": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js.map",
+    "static/css/2.f0db2a3b.chunk.css": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css",
+    "static/js/2.f5410ab2.chunk.js": "/Pizza-React-UI/static/js/2.f5410ab2.chunk.js",
+    "static/js/2.f5410ab2.chunk.js.map": "/Pizza-React-UI/static/js/2.f5410ab2.chunk.js.map",
+    "index.html": "/Pizza-React-UI/index.html",
+    "precache-manifest.dede9496029d5141df4e7d297f5012de.js": "/Pizza-React-UI/precache-manifest.dede9496029d5141df4e7d297f5012de.js",
+    "service-worker.js": "/Pizza-React-UI/service-worker.js",
+    "static/css/2.f0db2a3b.chunk.css.map": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css.map",
+    "static/css/main.2453da4f.chunk.css.map": "/Pizza-React-UI/static/css/main.2453da4f.chunk.css.map",
+    "static/js/2.f5410ab2.chunk.js.LICENSE.txt": "/Pizza-React-UI/static/js/2.f5410ab2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Pizza-React-UI/static/media/background-pizza.c25e3681.png",
+    "static/media/bannerPizza.jpg": "/Pizza-React-UI/static/media/bannerPizza.f17f6cd0.jpg",
+    "static/media/bannerPizza2.jpg": "/Pizza-React-UI/static/media/bannerPizza2.f6c2b790.jpg",
+    "static/media/coca-cola-zero.png": "/Pizza-React-UI/static/media/coca-cola-zero.d1c0061a.png",
+    "static/media/coca-cola.png": "/Pizza-React-UI/static/media/coca-cola.8c8548da.png",
+    "static/media/fanta.png": "/Pizza-React-UI/static/media/fanta.135e70f5.png",
+    "static/media/pizza-1.png": "/Pizza-React-UI/static/media/pizza-1.b294adac.png",
+    "static/media/pizza-2.png": "/Pizza-React-UI/static/media/pizza-2.3440821f.png",
+    "static/media/pizza-3.png": "/Pizza-React-UI/static/media/pizza-3.8d0ff132.png",
+    "static/media/pizza-4.png": "/Pizza-React-UI/static/media/pizza-4.2763afce.png",
+    "static/media/pizzabanner3.jpg": "/Pizza-React-UI/static/media/pizzabanner3.91a862eb.jpg",
+    "static/media/pizzabanner5.jpg": "/Pizza-React-UI/static/media/pizzabanner5.21fc4e31.jpg",
+    "static/media/sprite.png": "/Pizza-React-UI/static/media/sprite.18296005.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3c03765.js",
+    "static/css/2.f0db2a3b.chunk.css",
+    "static/js/2.f5410ab2.chunk.js",
+    "static/css/main.2453da4f.chunk.css",
+    "static/js/main.21ec064c.chunk.js"
+  ]
+}
