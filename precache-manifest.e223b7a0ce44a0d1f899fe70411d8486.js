@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d73ad977f22f9bed5d12346fa3998a92",
+    "revision": "7a5eae450d4a26664f561f8d3921c485",
     "url": "/Pizza-React-UI/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css"
   },
   {
-    "revision": "b988002437f239bd3878",
+    "revision": "4f6f6f85a71f3c6c3fb2",
     "url": "/Pizza-React-UI/static/css/main.41d85712.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b988002437f239bd3878",
-    "url": "/Pizza-React-UI/static/js/main.1417b21e.chunk.js"
+    "revision": "4f6f6f85a71f3c6c3fb2",
+    "url": "/Pizza-React-UI/static/js/main.dc40759f.chunk.js"
   },
   {
     "revision": "053bcbac355c2f8d8600",

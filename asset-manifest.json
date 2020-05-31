@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pizza-React-UI/static/css/main.41d85712.chunk.css",
-    "main.js": "/Pizza-React-UI/static/js/main.1417b21e.chunk.js",
-    "main.js.map": "/Pizza-React-UI/static/js/main.1417b21e.chunk.js.map",
+    "main.js": "/Pizza-React-UI/static/js/main.dc40759f.chunk.js",
+    "main.js.map": "/Pizza-React-UI/static/js/main.dc40759f.chunk.js.map",
     "runtime-main.js": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js",
     "runtime-main.js.map": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js.map",
     "static/css/2.f0db2a3b.chunk.css": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css",
     "static/js/2.5dcdc83e.chunk.js": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js",
     "static/js/2.5dcdc83e.chunk.js.map": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js.map",
     "index.html": "/Pizza-React-UI/index.html",
-    "precache-manifest.b5ead318447f1064ea9f53e5becdb5ec.js": "/Pizza-React-UI/precache-manifest.b5ead318447f1064ea9f53e5becdb5ec.js",
+    "precache-manifest.e223b7a0ce44a0d1f899fe70411d8486.js": "/Pizza-React-UI/precache-manifest.e223b7a0ce44a0d1f899fe70411d8486.js",
     "service-worker.js": "/Pizza-React-UI/service-worker.js",
     "static/css/2.f0db2a3b.chunk.css.map": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css.map",
     "static/css/main.41d85712.chunk.css.map": "/Pizza-React-UI/static/css/main.41d85712.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.f0db2a3b.chunk.css",
     "static/js/2.5dcdc83e.chunk.js",
     "static/css/main.41d85712.chunk.css",
-    "static/js/main.1417b21e.chunk.js"
+    "static/js/main.dc40759f.chunk.js"
   ]
 }
