@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux"
-import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Link, Route, Switch, Redirect} from "react-router-dom";
 import {Layout} from "antd";
 import Login from "./pages/login"
 import Payment from "./pages/payment"
@@ -86,7 +86,7 @@ export default () => {
                             <Route path="/pizza" component={Pizza}/>
                             {/*<Route path="/login" component={Login}/>*/}
                             <Route path="/history" component={History}/>
-                            <Route from="/pizza"/>
+                            <Redirect to="/pizza"/>
                         </Content>
                     </Switch>
                 </Layout>
