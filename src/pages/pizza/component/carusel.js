@@ -6,7 +6,6 @@ export default ()=>{
         <Carousel autoplay>
             <div>
                 <img alt="example" src={require(`../../../assets/images/bannerpizza4.jpg`)} className="banner" />
-                <span className="banner-of-date"> Discount <b>-25%</b> only Today</span>
             </div>
             <div>
                 <img alt="example" src={require(`../../../assets/images/bannerPizza.jpg`)} className="banner" />

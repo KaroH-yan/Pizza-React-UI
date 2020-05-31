@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux"
-import {BrowserRouter as Router, Link, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Link, Redirect, Route, Switch} from "react-router-dom";
 import {Layout} from "antd";
 import Login from "./pages/login"
 import Payment from "./pages/payment"
@@ -15,30 +15,32 @@ import {CHANGE_CURRENCY, CHANGE_VISIBILITY_CART} from "./redux/action-types";
 const {Content, Header, Footer} = Layout;
 
 const logOut = () => {
-    window.localStorage.removeItem("token")
+    window.localStorage.removeItem("token");
     // window.location.href="/login"
     window.location.reload()
-}
+};
 
 
 export default () => {
-    const [login, setLogin] = useState(false)
-    const [isLogin, setIsLogin] = useState(false)
+    const [login, setLogin] = useState(false);
+    const [isLogin, setIsLogin] = useState(false);
 
 
     const token = window.localStorage.getItem('token');
     const dispatch = useDispatch();
-    const {currency, ordered, showCart} = useSelector(state => state)
+    const {currency, ordered, showCart} = useSelector(state => state);
 
 
     useEffect(() => {
         if (ordered.length === 0) {
             dispatch({type: CHANGE_VISIBILITY_CART, payload: false})
         }
-    }, [ordered])
+    }, [ordered]);
+
     useEffect(() => {
         token ? setIsLogin(true) : setIsLogin(false)
-    }, [token])
+    }, [token]);
+
     return (
         <>
             <Router>
@@ -83,10 +85,9 @@ export default () => {
                     <Switch>
                         <Route path="/payment" component={Payment}/>
                         <Content className="site-layout" style={{padding: "0 50px", marginTop: 64, height: "94vh"}}>
-                            <Route path="/pizza" component={Pizza}/>
-                            <Route path="/" component={Pizza}/>
+                            <Route path="/pizza" exect component={Pizza}/>
                             <Route path="/history" component={History}/>
-                            <Redirect from="/" to="/pizza"/>
+                            <Redirect to="/pizza"/>
                         </Content>
                     </Switch>
                 </Layout>
