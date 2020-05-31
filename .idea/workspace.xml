@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e3ec4bc-5eb2-41e7-9522-c8c5658b91e3" name="Default Changelist" comment="bug fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pizza/component/carusel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pizza/component/carusel.js" afterDir="false" />
+    <list default="true" id="7e3ec4bc-5eb2-41e7-9522-c8c5658b91e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/services/base-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/base-service.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,7 +74,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="3" />
-          <entry key="js" value="4" />
+          <entry key="js" value="6" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="rnc" value="1" />
@@ -86,7 +84,7 @@
         <counts>
           <entry key="Image" value="3" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="1" />
@@ -95,7 +93,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="255" />
-          <entry key="js" value="195" />
+          <entry key="js" value="198" />
           <entry key="json" value="89" />
           <entry key="txt" value="27" />
         </counts>
@@ -104,7 +102,7 @@
         <counts>
           <entry key="CSS" value="255" />
           <entry key="JSON" value="89" />
-          <entry key="JavaScript" value="195" />
+          <entry key="JavaScript" value="198" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -121,13 +119,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="237">
+              <caret line="89" column="37" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="37" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,11 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/services/base-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+            <state relative-caret-position="476">
+              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -179,8 +189,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/images/pizzabanner3.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/services/pizza.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -205,7 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data</find>
       <find>ShoppingCartOutlined</find>
       <find>count</find>
       <find>menu</find>
@@ -235,6 +248,7 @@
       <find>banner</find>
       <find>banner-discount</find>
       <find>cov</find>
+      <find>Redirect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,8 +294,8 @@
         <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/pizza/component/carusel.js" />
-        <option value="$PROJECT_DIR$/src/services/base-service.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/services/base-service.js" />
       </list>
     </option>
   </component>
@@ -382,7 +396,7 @@
       <workItem from="1588957407976" duration="40466000" />
       <workItem from="1589554380245" duration="5279000" />
       <workItem from="1590313578240" duration="69779000" />
-      <workItem from="1590739904988" duration="17477000" />
+      <workItem from="1590739904988" duration="17665000" />
     </task>
     <task id="LOCAL-00001" summary="delete yarn lock">
       <created>1590924058131</created>
@@ -391,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590924058132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bug fix">
+      <created>1590964038814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590964038814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133079000" />
+    <option name="totallyTimeSpent" value="133267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,11 +431,11 @@
     <frame x="-7" y="0" width="1612" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16073698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16073698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -425,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30010954" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30010954" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -498,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/cart/components/NumberChange.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -533,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/pizza.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reduser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -561,6 +568,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,22 +696,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/base-service.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+        <state relative-caret-position="237">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="37" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/pizza.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/base-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

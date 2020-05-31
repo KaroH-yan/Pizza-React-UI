@@ -26,7 +26,7 @@ const requests = {
     del: url =>
         superagent.del(`${API_ROOT}${url}`).use(tokenPlugin).then(responseBody),
     get: url =>
-        superagent.get(`${API_ROOT}${url}`).use(tokenPlugin).then(responseBody),
+        superagent.get(`${API_ROOT}${url}`).use(tokenPlugin).set('Access-Control-Allow-Origin', '*').then(responseBody),
     put: (url, body) =>
         superagent.put(`${API_ROOT}${url}`, body).use(tokenPlugin).then(responseBody),
     post: (url, body) =>
