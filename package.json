@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "mode": "12.16.1",
+    "node": "12.16.1",
     "npm":"6.13.4"
   },
   "homepage": "http://KaroH-yan.github.io/Pizza-React-UI/",
