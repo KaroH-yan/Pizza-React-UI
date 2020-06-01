@@ -1,7 +1,7 @@
 {
   "name": "pizza",
   "version": "0.1.0",
-  "main": "/src/App.js",
+  "main": "./src/App.js",
   "private": true,
   "engines": {
     "node": "12.16.1",
