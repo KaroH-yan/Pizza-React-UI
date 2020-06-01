@@ -9,13 +9,12 @@ import "./index.css"
 import {CHANGE_VISIBILITY_CART, DELETE_ALL_ORDER, DELETE_FROM_ORDER} from "../../redux/action-types";
 
 export default () => {
-    const {ordered, currency} = useSelector(state => state)
-    const dispatch = useDispatch()
+    const {ordered, currency} = useSelector(state => state);
+    const dispatch = useDispatch();
 
-    const reducer = (accumulator, currentValue) => accumulator + (currentValue.prices.filter(el => el.currency === currency)[0].price * currentValue.quantity)
+    const reducer = (accumulator, currentValue) => accumulator + (currentValue.prices.filter(el => el.currency === currency)[0].price * currentValue.quantity);
 
     const total = (prices, count) => {
-        // console.log(prices)
         const {price} = prices.filter(el => el.currency === currency)[0];
         return __.round(price * count, 2).toLocaleString('de-DE', {
             style: 'currency',
@@ -25,7 +24,7 @@ export default () => {
     };
 
     return (
-        <div className="cart-menu" onMouseLeave={() => dispatch({type: CHANGE_VISIBILITY_CART, payload: (false)})}>
+        <div className="cart-menu">
             <h1> Cart List</h1>
             <Divider/>
             {ordered.map((item, index) => <>

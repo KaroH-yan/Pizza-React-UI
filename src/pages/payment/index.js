@@ -16,7 +16,7 @@ export default ({location}) => {
     const dispatch = useDispatch();
 
 
-    const token = window.localStorage.getItem("token")
+    const token = window.localStorage.getItem("token");
     const desriptionRef = useRef(null);
     const key = 'updatable';
 
@@ -37,7 +37,7 @@ export default ({location}) => {
             return {"pizza_id": el.id, "quantity": el.quantity}
         });
 
-        setFocus(true)
+        setFocus(true);
         if (!address) {
             return
         } else {
@@ -70,7 +70,6 @@ export default ({location}) => {
 
     };
 
-    console.log(token)
     return (
         <div className="payment-container">
             {action ?

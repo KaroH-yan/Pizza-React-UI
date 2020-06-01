@@ -4,10 +4,10 @@ import {Divider} from "antd";
 import Card from "./Card"
 import moment from "moment"
 
-export default ({created_at, address, prices, id, ...props}) => {
-    const [show, setShow]=useState(false)
-    console.log(props, prices)
-    const {currency} = useSelector(state => state)
+export default ({created_at, address, prices, id}) => {
+    const [show, setShow]=useState(false);
+    const {currency} = useSelector(state => state);
+
     return (
         <>
         <div className="history-content">
