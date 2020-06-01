@@ -27,6 +27,11 @@ header button:focus {
     margin-left: 20px;
 }
 
+.site-layout .ant-spin {
+    position: absolute;
+    left: 50%;
+    top: 33%;
+}
 .site-layout {
     overflow: hidden;
     padding: 24px 12px 0 12px;
@@ -44,7 +49,7 @@ header button:focus {
 
 }
 .ant-carousel .slick-slide img{
-    height: 50vh;
+    height: 460px;
 }
 
 .banner-discount{
@@ -226,6 +231,7 @@ header button:focus {
     color: #001529;
     font-size: 32px;
 }
+
 .history-content .order-more{
     cursor: pointer;
     text-align: center;
@@ -233,14 +239,15 @@ header button:focus {
     color: #0f4c81;
     font-weight: 500;
 }
+
 .history-content .header-part .ant-divider{
     background-color: #001529;
 }
+
 .history-content .header-part{
-    /*display: flex;*/
-    /*justify-content: space-between;*/
     margin: 12px 24px;
 }
+
 .history-content .header-part div{
     color: #0f4c81;
     font-size: 24px;
@@ -264,29 +271,28 @@ header button:focus {
 }
 
 .login-page {
-    /*background-image: url("./assets/images/background-pizza.png");*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
     height: 100vh;
     display: flex;
     justify-content: center;
 }
 
+.login-container .anticon-close {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
 .login-container {
     margin: auto;
     background-color: #125e83;
     width: 285px;
     height: 253px;
-    /*position: relative;*/
-
     z-index: 2;
     max-height: 70vh;
     position: fixed;
     top: 69px;
     right: 14px;
     padding: 25px 5px;
-
     border-radius: 25px;
     border: 1px solid #0f4c81 ;
 }
@@ -548,7 +554,7 @@ header button:focus {
     text-align: center;
     height: 460px;
     line-height: 160px;
-    background: #364d79;
+    /*background: #364d79;*/
     overflow: hidden;
     border-radius: 25px;
 }

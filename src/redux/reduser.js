@@ -1,10 +1,19 @@
-import {ADD_TO_ORDER, CHANGE_CURRENCY, DELETE_ALL_ORDER, DELETE_FROM_ORDER, UPDATE_ORDER, CHANGE_VISIBILITY_CART} from "./action-types"
+import {
+    ADD_TO_ORDER,
+    CHANGE_CURRENCY,
+    CHANGE_VISIBILITY_CART,
+    CHANGE_VISIBILITY_LOGIN,
+    DELETE_ALL_ORDER,
+    DELETE_FROM_ORDER,
+    UPDATE_ORDER
+} from "./action-types"
 import __ from "lodash"
 
 const initialState = {
     ordered: [],
     currency: "EURO",
-    showCart: false
+    showCart: false,
+    showLogin: false
 };
 
 
@@ -13,10 +22,17 @@ const rootReducer = (state = initialState, action) => {
         case CHANGE_VISIBILITY_CART:
             return{
                 ...state,
+                showLogin: false,
                 showCart: action.payload
-            }
+            };
+        case CHANGE_VISIBILITY_LOGIN:
+            return {
+                ...state,
+                showCart:false,
+                showLogin: action.payload
+            };
         case ADD_TO_ORDER:
-            const orderList =state.ordered.filter(el => el.id !== action.payload.id)
+            const orderList =state.ordered.filter(el => el.id !== action.payload.id);
             return {
                 ...state,
                 ordered: [ ...orderList, action.payload]

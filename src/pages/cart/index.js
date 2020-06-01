@@ -3,13 +3,13 @@ import {useDispatch, useSelector} from "react-redux"
 import {Link} from "react-router-dom"
 import {Button, Col, Divider, Row} from "antd"
 import NumberChange from "./components/NumberChange"
-import {DeleteOutlined} from '@ant-design/icons'
+import {CloseOutlined, DeleteOutlined} from '@ant-design/icons'
 import __ from "lodash"
 import "./index.css"
 import {CHANGE_VISIBILITY_CART, DELETE_ALL_ORDER, DELETE_FROM_ORDER} from "../../redux/action-types";
 
 export default () => {
-    const {ordered, currency} = useSelector(state => state);
+    const {ordered, currency, showCart} = useSelector(state => state);
     const dispatch = useDispatch();
 
     const reducer = (accumulator, currentValue) => accumulator + (currentValue.prices.filter(el => el.currency === currency)[0].price * currentValue.quantity);
@@ -25,7 +25,15 @@ export default () => {
 
     return (
         <div className="cart-menu">
-            <h1> Cart List</h1>
+            <div style={{display: "flex"}}>
+                <h1> Cart List</h1>
+                <span>
+                    <CloseOutlined onClick={() => !!ordered.length && dispatch({
+                    type: CHANGE_VISIBILITY_CART,
+                    payload: (!showCart)
+                })}/>
+                </span>
+            </div>
             <Divider/>
             {ordered.map((item, index) => <>
                 <Row gutter={8}>

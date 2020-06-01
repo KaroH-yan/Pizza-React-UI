@@ -1,16 +1,22 @@
 import React, {useRef, useState} from "react"
-import {Button, Input} from "antd"
+import {useDispatch, useSelector} from "react-redux"
+import {Button, Input, message} from "antd"
 import agent from "../../services/auth";
+import {CloseOutlined} from "@ant-design/icons";
+import {CHANGE_VISIBILITY_LOGIN} from "../../redux/action-types";
 
-export default ({toHIde=()=>{}, title=""}) => {
-    const userNameRef = useRef(null)
-    const [password, setPassword] = useState("")
+export default ({title=""}) => {
+    const userNameRef = useRef(null);
+    const [password, setPassword] = useState("");
+
+    const {showLogin} = useSelector(state => state);
+    const dispatch = useDispatch();
+
     const handleClick = () => {
         agent.login(userNameRef.current.state.value, password)
             .then(res => window.localStorage.setItem('token', `Bearer ${res.token}`))
             .then(() => window.location.reload())
-        toHIde()
-
+            .catch(() => message.error("Please insert right password or email"))
     };
 
     return (
@@ -19,6 +25,9 @@ export default ({toHIde=()=>{}, title=""}) => {
                 <Input className="user-input" ref={userNameRef}/>
                 <Input.Password type="password" onChange={e => setPassword(e.target.value)}/>
                 <Button className="login-button" type="primary" onClick={(e) => handleClick(e)}> Log in </Button>
+            {!title && <CloseOutlined
+                onClick={() => dispatch({type: CHANGE_VISIBILITY_LOGIN, payload: (!showLogin)})}
+            />}
         </>
     )
 }
