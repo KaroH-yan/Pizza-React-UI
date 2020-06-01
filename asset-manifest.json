@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Pizza-React-UI/static/css/main.41d85712.chunk.css",
-    "main.js": "/Pizza-React-UI/static/js/main.dc40759f.chunk.js",
-    "main.js.map": "/Pizza-React-UI/static/js/main.dc40759f.chunk.js.map",
+    "main.js": "/Pizza-React-UI/static/js/main.1f17a7c0.chunk.js",
+    "main.js.map": "/Pizza-React-UI/static/js/main.1f17a7c0.chunk.js.map",
     "runtime-main.js": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js",
     "runtime-main.js.map": "/Pizza-React-UI/static/js/runtime-main.f3c03765.js.map",
     "static/css/2.f0db2a3b.chunk.css": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css",
-    "static/js/2.5dcdc83e.chunk.js": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js",
-    "static/js/2.5dcdc83e.chunk.js.map": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js.map",
+    "static/js/2.5746812b.chunk.js": "/Pizza-React-UI/static/js/2.5746812b.chunk.js",
+    "static/js/2.5746812b.chunk.js.map": "/Pizza-React-UI/static/js/2.5746812b.chunk.js.map",
     "index.html": "/Pizza-React-UI/index.html",
-    "precache-manifest.e223b7a0ce44a0d1f899fe70411d8486.js": "/Pizza-React-UI/precache-manifest.e223b7a0ce44a0d1f899fe70411d8486.js",
+    "precache-manifest.440af1480f2add22510750697d99154c.js": "/Pizza-React-UI/precache-manifest.440af1480f2add22510750697d99154c.js",
     "service-worker.js": "/Pizza-React-UI/service-worker.js",
     "static/css/2.f0db2a3b.chunk.css.map": "/Pizza-React-UI/static/css/2.f0db2a3b.chunk.css.map",
     "static/css/main.41d85712.chunk.css.map": "/Pizza-React-UI/static/css/main.41d85712.chunk.css.map",
-    "static/js/2.5dcdc83e.chunk.js.LICENSE.txt": "/Pizza-React-UI/static/js/2.5dcdc83e.chunk.js.LICENSE.txt",
+    "static/js/2.5746812b.chunk.js.LICENSE.txt": "/Pizza-React-UI/static/js/2.5746812b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Pizza-React-UI/static/media/background-pizza.c25e3681.png",
     "static/media/bannerPizza.jpg": "/Pizza-React-UI/static/media/bannerPizza.f17f6cd0.jpg",
     "static/media/bannerPizza2.jpg": "/Pizza-React-UI/static/media/bannerPizza2.f6c2b790.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.f3c03765.js",
     "static/css/2.f0db2a3b.chunk.css",
-    "static/js/2.5dcdc83e.chunk.js",
+    "static/js/2.5746812b.chunk.js",
     "static/css/main.41d85712.chunk.css",
-    "static/js/main.dc40759f.chunk.js"
+    "static/js/main.1f17a7c0.chunk.js"
   ]
 }
